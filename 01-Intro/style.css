@@ -1,0 +1,23 @@
+.container {
+  padding: 1rem;
+  background-color: darkslateblue;
+
+  /* Habilitamos Flexbox */
+  display: flex;
+}
+
+.item {
+  background-color: lightcoral;
+}
+
+.item-flex {
+  background-color: green;
+
+  /* Habilitamos Flexbox en un elemento hijo */
+  display: flex;
+}
+
+.item-flex > h2 {
+  color: white;
+  background-color: blue;
+}
