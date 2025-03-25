@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: normal; /* Valor default */
+  align-content: flex-start; /* Lleva las líneas hacia el cross-start */
+  align-content: flex-end; /* Lleva las líneas hacia el cross-end */
+  align-content: center; /* lleva las lineas hacia el centro del cross-axis */
+  align-content: space-around; /* Distribuye el mismo espacio arriba y abajo de los elementos */
+  align-content: space-between; /* Distribuje el espacio entre las linas sin considerar los bordes */
+  align-content: space-evenly; /* Distribuje el espacio proporcionalmente entre las lineas incluyendo los bordes. */
+  align-content: stretch; /* Estira las lienas en ele spacio disponible. Los items nos deben tener alto definido */
+
+  /* Commit: "Aling content" */
+
+  width: 500px;
+  height: 100vh;
+  background-color: darkslateblue;
+}
+
+.item {
+  width: 150px;
+  /*   height: 100px; */
+  background-color: lightcoral;
+  text-align: center;
+  border: 1px solid lightgreen;
+}
