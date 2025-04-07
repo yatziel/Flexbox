@@ -8,3 +8,115 @@
 body {
   font-family: sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  border-bottom: 1px solid darkslateblue;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+nav {
+  display: flex;
+  gap: 1rem; /* 16px */
+}
+
+a {
+  font-weight: bold;
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  padding: 1rem;
+  background-color: rgb(219, 214, 251);
+}
+
+h2 {
+  color: darkslateblue;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: rgb(12, 9, 33);
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+  background-color: darkslateblue;
+}
+
+.card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(249, 251, 255);
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(215, 198, 242);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  color: darkslateblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.copyright {
+  color: darkslateblue;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialmedia a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Commit: Terminamos práctica de Flexbox */
